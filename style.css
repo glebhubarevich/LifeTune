@@ -24,12 +24,16 @@ body {
   filter: blur(0.3);
 }
 
-.nav {
+.header_center {
+  display: flex;
 }
 
-.header_section {
-  display: flex;
-  justify-content: space-around;
+.header_center a {
+  margin-right: 20px;
+}
+
+#line {
+  margin-right: 20px;
 }
 
 .header-image {
@@ -39,6 +43,5 @@ body {
 .header a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
   font-size: 20px;
 }
