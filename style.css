@@ -28,11 +28,11 @@ body {
   display: flex;
 }
 
-.header_center a {
+#line {
   margin-right: 20px;
 }
 
-#line {
+#lifetune-icon {
   margin-right: 20px;
 }
 
