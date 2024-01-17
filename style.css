@@ -3,22 +3,42 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  max-width: 100%;
 }
 
 #app {
   text-align: center;
+  width: 100%;
 }
 
 .header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: rgba(17, 17, 17, 0.4);
   display: flex;
   height: 106px;
-  padding: 0px 70px;
-  background: rgba(17, 17, 17, 0.4);
-  justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+  justify-content: space-around;
+  filter: blur(0.3);
 }
 
 .nav {
+}
+
+.header_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
