@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LifeTune</title>
-    <script type="module" src="/main.js"></script>
-  </head>
-  <body>
-    <div id="app">
-      <header class="header">
-        <a id="konzept" href="konzept.html">Konzept</a>
-        <a id="faq" href="faq.html">FAQ</a>
-        <a href="index.html">
-          <div class="header_center">
-            <img
-              id="lifetune-icon"
-              src="/images/lifetune_icon.svg"
-              alt="LifeTune Icon"
-            />
-            <img
-              id="line"
-              src="/images/vertical_line.svg"
-              alt="Vertical Line"
-            />
-            <img src="/images/lifetune_text.svg" alt="LIFETUNE" /></div
-        ></a>
-        <a id="team" href="team.html">Team</a>
-        <a id="partner" href="partner.html">Partner</a>
-      </header>
-      <nav class="nav">
-        <img
-          class="header-image"
-          src="/images/header_image.png"
-          alt="header image"
-        />
-      </nav>
-      <section></section>
-      <footer class="footer"></footer>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/icon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles/global.css" />
+		<link rel="stylesheet" href="/styles/header.css" />
+		<link rel="stylesheet" href="/styles/hero.css" />
+		<link rel="stylesheet" href="/styles/index.css" />
+		<title>LifeTune</title>
+		<script type="module" src="/main.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<header class="header">
+				<div class="header_container containered">
+					<div class="header_left header_side">
+						<a id="konzept" href="konzept.html">Konzept</a>
+						<a id="faq" href="faq.html">FAQ</a>
+					</div>
+					<a href="index.html">
+						<div class="header_center">
+							<img id="lifetune-icon" src="/images/lifetune_icon.svg" alt="LifeTune Icon" />
+							<img id="line" src="/images/vertical_line.svg" alt="Vertical Line" />
+							<img src="/images/lifetune_text.svg" alt="LIFETUNE" /></div
+					></a>
+					<div class="header_right header_side">
+						<a id="team" href="team.html">Team</a>
+						<a id="partner" href="partner.html">Partner</a>
+					</div>
+				</div>
+			</header>
+			<div class="hero hero_index" style="background-image: url('/images/index_hero.png')">
+				<div class="hero_container containered">
+					<h1 class="hero_title">Finetune your Life</h1>
+					<h2 class="hero_subtitle">
+						Entwickle gesunde Gewohnheiten und verbessere dein Leben
+					</h2>
+					<button class="hero_cta button button_big button_green shadow" id="home_cta">
+						Jetzt herunteladen
+					</button>
+				</div>
+			</div>
+			<main>
+				<section class="download"></section>
+			</main>
+
+			<section></section>
+			<footer class="footer"></footer>
+		</div>
+	</body>
 </html>
