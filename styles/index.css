@@ -93,3 +93,15 @@ section.howitworks {
 .partner_logo img {
 	width: 100%;
 }
+.footer_container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px;
+}
+.footer_container a {
+	text-decoration: none;
+	color: black;
+}
+.footer_container a:hover {
+	text-decoration: underline;
+}
