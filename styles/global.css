@@ -16,6 +16,10 @@ h2 {
 	font-size: 36px;
 	font-weight: 600;
 }
+h3 {
+	font-size: 36px;
+	font-weight: 400;
+}
 h4 {
 	font-size: 20px;
 	font-weight: 400;
@@ -24,6 +28,9 @@ p,
 li {
 	font-size: 16px;
 	font-weight: 400;
+}
+strong {
+	font-weight: 600;
 }
 .button {
 	border: none;
@@ -69,7 +76,6 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: start;
-	padding-top: 72px;
 	/* gap: 72px; */
 }
 footer {
