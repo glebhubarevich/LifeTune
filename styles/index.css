@@ -1,5 +1,5 @@
 .main_index {
-	padding-top: 72px;
+	padding: 72px 0;
 }
 .download {
 	width: 100%;
@@ -95,4 +95,55 @@ section.howitworks {
 }
 .partner_logo img {
 	width: 100%;
+}
+.reviews {
+	background: #e1f5ec;
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.reviews .containered {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 48px 12px;
+	gap: 36px;
+}
+.reviews_items {
+	display: flex;
+	width: 100%;
+	height: fit-content;
+	justify-content: space-between;
+	align-items: start;
+	gap: 36px;
+}
+.reviews_item {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	background: #fff;
+	border-radius: 12px;
+	padding: 24px;
+}
+.reviews_item_img {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.reviews_item_description {
+	font-style: italic;
+	text-align: center;
+}
+.reviews_item_name {
+	font-weight: 600;
 }
