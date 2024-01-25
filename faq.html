@@ -5,10 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="Finde Antworten auf bereits häufig gestellte Fragen bezüglich LifeTune." />
+			content="Finde Antworten auf bereits häufig gestellte Fragen bezüglich LifeTune."
+		/>
 		<link rel="stylesheet" href="/styles/global.css" />
 		<link rel="stylesheet" href="/styles/header.css" />
 		<link rel="stylesheet" href="/styles/hero.css" />
+		<link rel="stylesheet" href="/styles/footer.css" />
+		<link rel="stylesheet" href="/styles/faq.css" />
 		<title>FAQ</title>
 	</head>
 	<body>
@@ -35,5 +38,98 @@
 				<h1 class="hero_title">FAQ</h1>
 			</div>
 		</div>
+		<main class="faq">
+			<div class="containered">
+				<div class="accordion">
+					<div class="accordion_item active">
+						<div class="accordion_item_header">
+							<h4>Gibt es Beschränkungen bei der Einlösung von Punkten?</h4>
+							<img src="images/arrow_down.svg" alt="" />
+						</div>
+						<div class="accordion_item_content">
+							Die gesammelten Punkte können lediglich bei unseren Sponsoring-Partnern
+							eingelöst werden.
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="accordion_item_header">
+							<h4>Wie sicher ist die App in Bezug auf Datenschutz?</h4>
+							<img src="images/arrow_down.svg" alt="" />
+						</div>
+						<div class="accordion_item_content">
+							LifeTune legt großen Wert auf Datenschutz. Alle persönlichen Informationen
+							werden verschlüsselt und anonymisiert gespeichert. Die App teilt keine Daten
+							ohne Zustimmung des Nutzers und hält sich an gängige Datenschutzstandards.
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="accordion_item_header">
+							<h4>Welche Arten von personalisierten Aufgaben bietet LifeTune an?</h4>
+							<img src="images/arrow_down.svg" alt="" />
+						</div>
+						<div class="accordion_item_content">
+							LifeTune bietet eine Vielfalt an personalisierten Aufgaben an, basierend auf
+							den individuellen Lebenszielen und dem erstellten Lebensrad des Nutzers. Die
+							Aufgaben reichen von kleinen Gewohnheitsänderungen bis zu größeren Zielen.
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="accordion_item_header">
+							<h4>
+								Haben die personalisierten Aufgaben eine unterschiedliche Punkteverteilung?
+							</h4>
+							<img src="images/arrow_down.svg" alt="" />
+						</div>
+						<div class="accordion_item_content">
+							Ja, personalisierte Aufgaben haben unterschiedliche Punkteverteilungen. Je nach
+							Komplexität und Bedeutung der Aufgabe erhält der Nutzer entsprechende Punkte.
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="accordion_item_header">
+							<h4>
+								Gibt es bei Lifetune auch ein Abo-Modell, wo z.B. die Freundesliste
+								erweitert wird?
+							</h4>
+							<img src="images/arrow_down.svg" alt="" />
+						</div>
+						<div class="accordion_item_content">
+							LifeTune bietet aktuell kein Abo-Modell an, die App ist kostenlos.
+						</div>
+					</div>
+					<div class="accordion_item">
+						<div class="accordion_item_header">
+							<h4>Gibt es die App sowohl im App-Store als auch im Google Play Store?</h4>
+							<img src="images/arrow_down.svg" alt="" />
+						</div>
+						<div class="accordion_item_content">
+							Ja, LifeTune ist sowohl im App Store als auch im Google Play Store verfügbar.
+						</div>
+					</div>
+				</div>
+				<div class="contactus shadow">
+					<h4>Weitere Fragen?</h4>
+					<p>
+						Schreib uns gerne eine E-Mail an
+						<a href="mailto: info@lifetune.com">info@lifetune.com</a>
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer_container">
+				<a href="impressum.html"><p>Impressum</p></a>
+				<a href="team.html"><p>Über uns</p></a>
+				<a href="kontakt.html"><p>Kontakt</p></a>
+				<p>© Lifetune, Inc</p>
+			</div>
+		</footer>
+		<script>
+			const faqItems = document.querySelectorAll('.accordion_item');
+			faqItems.forEach(item => {
+			   item.addEventListener('click', () => {
+			      item.classList.toggle('active');
+				})});
+		</script>
 	</body>
 </html>

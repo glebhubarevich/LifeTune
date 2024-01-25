@@ -1,0 +1,66 @@
+.faq {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 72px 12px;
+}
+.faq .containered {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 72px;
+}
+.accordion {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.accordion_item {
+	width: 100%;
+	border-bottom: 1px solid #f1f1f1;
+}
+.accordion_item_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 0;
+	cursor: pointer;
+	width: 100%;
+}
+.accordion_item_header img {
+	width: 24px;
+	height: 24px;
+	object-fit: cover;
+	transform: rotate(-90deg);
+	transition: all 0.3s ease-in-out;
+}
+.accordion_item_content {
+	display: none;
+	width: 100%;
+	color: #555;
+	padding: 6px 0 12px 0;
+}
+.accordion_item.active .accordion_item_content {
+	display: block;
+}
+.accordion_item.active .accordion_item_header img {
+	transform: rotate(0deg);
+}
+
+.contactus {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 48px;
+	/* background: #eee; */
+	border-radius: 12px;
+	gap: 12px;
+}
+.contactus a {
+	color: #000;
+}
