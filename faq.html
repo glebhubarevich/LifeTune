@@ -5,8 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="Finde Antworten auf bereits häufig gestellte Fragen bezüglich LifeTune."
-		/>
+			content="Finde Antworten auf bereits häufig gestellte Fragen bezüglich LifeTune." />
 		<link rel="stylesheet" href="/styles/global.css" />
 		<link rel="stylesheet" href="/styles/header.css" />
 		<link rel="stylesheet" href="/styles/hero.css" />
@@ -36,6 +35,7 @@
 		<div class="hero" style="background-image: url('/images/faq_hero.png')">
 			<div class="hero_container containered">
 				<h1 class="hero_title">FAQ</h1>
+				<h4>Finde schnell häufig gestellte Fragen</h4>
 			</div>
 		</div>
 		<main class="faq">
@@ -68,8 +68,8 @@
 							<img src="images/arrow_down.svg" alt="" />
 						</div>
 						<div class="accordion_item_content">
-							LifeTune bietet eine Vielfalt an personalisierten Aufgaben an, basierend auf
-							den individuellen Lebenszielen und dem erstellten Lebensrad des Nutzers. Die
+							LifeTune bietet eine Vielfalt an personalisierten Aufgaben an, basierend auf den
+							individuellen Lebenszielen und dem erstellten Lebensrad des Nutzers. Die
 							Aufgaben reichen von kleinen Gewohnheitsänderungen bis zu größeren Zielen.
 						</div>
 					</div>
@@ -88,8 +88,8 @@
 					<div class="accordion_item">
 						<div class="accordion_item_header">
 							<h4>
-								Gibt es bei Lifetune auch ein Abo-Modell, wo z.B. die Freundesliste
-								erweitert wird?
+								Gibt es bei Lifetune auch ein Abo-Modell, wo z.B. die Freundesliste erweitert
+								wird?
 							</h4>
 							<img src="images/arrow_down.svg" alt="" />
 						</div>
@@ -126,10 +126,11 @@
 		</footer>
 		<script>
 			const faqItems = document.querySelectorAll('.accordion_item');
-			faqItems.forEach(item => {
-			   item.addEventListener('click', () => {
-			      item.classList.toggle('active');
-				})});
+			faqItems.forEach((item) => {
+				item.addEventListener('click', () => {
+					item.classList.toggle('active');
+				});
+			});
 		</script>
 	</body>
 </html>

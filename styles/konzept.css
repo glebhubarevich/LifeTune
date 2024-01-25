@@ -34,3 +34,11 @@
 	flex-direction: column;
 	gap: 24px;
 }
+.button_tasks {
+	padding: 16px 20px;
+	text-decoration: none;
+	border-radius: 12px;
+}
+.tasks_description {
+	margin-bottom: 10px;
+}
